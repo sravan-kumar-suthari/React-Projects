@@ -1,0 +1,30 @@
+.ListOfItems{
+    box-sizing: border-box;
+    border : 1px solid #000;
+    margin: 0px auto 0px auto;
+    display:flex;
+     width:670px;
+     padding:10px;
+     
+     
+}
+.ListOfItems input{
+   position: relative;
+   top:10px;
+}
+.ListOfItems label{
+    position: relative;
+    top:7px;
+}
+.ListOfItems .Button{
+    margin-left: auto;
+}
+.ListOfItems button{
+    margin:5px;
+}
+.ListOfItems button:first-child{
+    background:red;
+}
+.ListOfItems button:nth-child(2){
+    background:green;
+}
